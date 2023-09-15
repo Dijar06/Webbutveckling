@@ -6,9 +6,13 @@ p{
     color:white;
 }
 
+.altP{
+    text-align: center;
+}
+
 h1{
     font-family: Arial;
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
 }
 
