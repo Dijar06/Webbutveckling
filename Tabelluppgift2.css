@@ -2,11 +2,11 @@ table,td{
     border: 1px solid black;
     border-collapse: collapse;
     height: 150px;
-    width: 1000px;
+    width: 800px;
 }
 
 .blue{
-    background-color: rgb(50, 98, 240);
+    background-color: rgb(76, 117, 241);
 }
 
 .red{
@@ -23,4 +23,11 @@ table,td{
 
 .green{
     background-color: rgb(32, 237, 13);
+}
+
+caption{
+    caption-side: bottom;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Arial;
 }

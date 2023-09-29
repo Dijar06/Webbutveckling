@@ -19,14 +19,28 @@ tr:nth-child(even){
     color: rgb(240, 240, 240);
 }
 
-.left{
+th:nth-child(1){
     text-align: left;
 }
 
-.right{
+th:nth-child(4){
     text-align: right;
 }
 
-table{
-    text-align:center;
+td:nth-child(2){
+    text-align: center;
+}
+
+td:nth-child(3){
+    text-align: center;
+}
+
+td:nth-child(4){
+    text-align: right;
+}
+
+caption{
+    caption-side: bottom;
+    font-size: 30px;
+    margin-top: 10px;
 }
