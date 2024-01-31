@@ -1,0 +1,27 @@
+body{
+    height: 97vh;
+    width: 99%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+section:nth-child(1){
+    background-color: red;
+}
+
+section:nth-child(2){
+    background-color: blue;
+}
+
+section:nth-child(3){
+    background-color: green;
+}
+
+section:nth-child(4){  
+    background-color: yellow;
+}
+
+h1{
+    font-size: 5vw;
+}
