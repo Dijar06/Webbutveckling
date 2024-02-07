@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <title>Formulär</title>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="formulär.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <form action="formulär2.html" method="get">
+            <label for="namn">Namn:</label>
+            <input type="namn" name="namn" id="namn"><br>
+            <label for="ålder">Ålder:</label>
+            <input type="ålder" name="ålder" id="ålder"><br>
+            <p>Vad blir 1+1:</p>
+            <input type="radio" name="radio" id="2" value="2"><label for="2">2</label><br>
+            <input type="radio" name="radio" id="11" value="11"><label for="11">11</label><br>
+            <p>Mår du bra?</p>
+            <input type="checkbox" name="checkbox" id="ja" value="ja"><label for="ja">ja</label><br>
+            <input type="checkbox" name="checkbox" id="nej" value="nej"><label for="nej">nej</label><br>
+            <p>Sveriges huvudstad:</p>
+            <select name="stad">
+                <option value="stockholm">Stockholm</option>
+                <option value="göteborg">Göteborg</option>
+                <option value="malmö">Malmö</option>
+            </select><br>
+            <input type="submit" value="Skicka">
+        </form>
+    </section>
+</body>
+</html>
